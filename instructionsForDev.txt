@@ -1,3 +1,2 @@
 1. Changing urls requires changing url in "urlConfig.js", "passport.js" for backend.
-2. Development url - `http://localhost:8000`, Deployment url - `https://engagebackend.vercel.app/`
-3. while deploying   process.env.NODE_ENV === Production
+2. while deploying   process.env.NODE_ENV === Production
