@@ -1,7 +1,7 @@
 const BACKEND_URL =
   process.env.NODE_ENV === "development"
-    ? `https://engage-backend-phi.vercel.app`
-    : `https://engage-backend-phi.vercel.app`;
+    ? `http://localhost:8000`
+    : `https://engage-backend-ivory.vercel.app`;
 const passport = require("passport");
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
 const User = require("./models/user");
