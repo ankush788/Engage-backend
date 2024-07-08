@@ -46,8 +46,8 @@ app.use(
     store: store,
     cookie: {
       maxAge: 604800000,
-      secure: process.env.NODE_ENV === "development" ? false : true,
-      sameSite: process.env.NODE_ENV === "development" ? "lax" : "none",
+      secure: process.env.NODE_ENV !== "development" ? false : true,
+      sameSite: process.env.NODE_ENV !== "development" ? "lax" : "none",
     },
   })
 );
